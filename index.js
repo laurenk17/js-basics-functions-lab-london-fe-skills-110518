@@ -22,15 +22,15 @@ function distanceTravelledInFeet(startingBlock, endingBlock) {
 }
 const feet = distanceTravelledInFeet
 
-function calculatesFarePrice(starting){
+function calculatesFarePrice(start, destination){
   
-  if (distanceTravelledInFeet <= 400) {
+  if (feet <= 400) {
     return 0
-  } else if(distanceTravelledInFeet > 400) {
+  } else if(feet > 400) {
    return (someValue *0.02) 
-  } else if(distanceTravelledInFeet >2000 & distanceTravelledInFeet < 2500){
+  } else if(feet >2000 & feet < 2500){
    return 8
-  } else if (distanceTravelledInFeet > 2500) {
+  } else if (feet > 2500) {
     return ('cannot travel that far')
   }
 }
