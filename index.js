@@ -32,7 +32,7 @@ const feet = distanceTravelledInFeet(start, destination)
    return 25 
 
   } else if(feet > 400 ) {
-   return (feet *0.02) 
+   return ((feet- 400)*0.02) 
   } 
 }
 
