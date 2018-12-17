@@ -30,9 +30,8 @@ const feet = distanceTravelledInFeet(start, destination)
     return ('cannot travel that far') 
   } else if(feet >2000 & feet < 2500){
    return 25 
-  
-  
-  }else if(feet > 400 ) {
+
+  } else if(feet > 400 ) {
    return (feet *0.02) 
   } 
 }
