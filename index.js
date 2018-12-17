@@ -7,9 +7,10 @@ function distanceFromHqInBlocks(someValue) {
   }
 }
 
+
 function distanceFromHqInFeet(someValue) {
-  distanceFromHqInBlocks(someValue);
-  return(distanceFromHqInBlocks* 264);
+  const distance = distanceFromHqInBlocks(someValue);
+  return(distance * 264);
 }
 
 function distanceTravelledInFeet(startingBlock, EndingBlock) {
